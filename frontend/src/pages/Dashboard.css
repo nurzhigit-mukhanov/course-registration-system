@@ -1,0 +1,55 @@
+.dashboard {
+  display: flex;
+  padding: 20px;
+}
+
+.sidebar {
+  width: 30%;
+  border-right: 1px solid #ddd;
+  padding: 10px;
+}
+
+.course-list {
+  list-style: none;
+  padding: 0;
+}
+
+.course-list li {
+  cursor: pointer;
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+.course-list li.selected {
+  background-color: #f0f0f0;
+  font-weight: bold;
+}
+
+.schedule {
+  width: 70%;
+  padding: 10px;
+}
+
+.schedule-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.schedule-table th,
+.schedule-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.time-slot.preview {
+  background-color: #d0f0c0;
+  color: #005500;
+  font-weight: bold;
+}
+
+.time-slot.occupied {
+  background-color: #ffcccc;
+  color: #900;
+  font-weight: bold;
+}
